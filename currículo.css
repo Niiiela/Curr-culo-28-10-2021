@@ -1,0 +1,193 @@
+body {
+
+        background-color: seashell;
+        border-radius: 70px;
+        border-style: inset;
+        border-color: rgb(240, 5, 150);
+        padding: 16px;
+        color: rgb(240, 5, 150);
+    }
+
+h1 {
+        color: rgb(190, 86, 150);
+        text-align: center;
+        border-bottom: solid;/*cria uma borda abaixo do nome Currículo*/
+        border-radius: 90px; /*Cria um efeito arredondado na bordar abaixo do nome currículo*/
+        font-size: 60px;
+        border-width: 10px;
+        margin-top: 15px;
+        padding: 20px;
+        border-color: rgb(226, 65, 127);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+img {
+        width: 500px;
+        height: 500px;
+        margin-right: 40px;
+        border-radius: 250px;
+        border-style: inset;
+        border-color: rgb(240, 5, 150);
+
+    }
+
+.foto   {
+            display: flex;
+        }
+
+h2  {
+        color: rgb(243, 131, 200);
+        text-align: center;
+        margin-top: 170px;
+        padding: 10px;
+        font-size: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+.dados  {
+            text-align: justify;
+            font-size: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            white-space: pre-line; /*Quebra de linha*/
+            margin-left: 1px;
+            color: rgb(243, 131, 200);
+        }
+
+a   {    
+        text-decoration: none;
+    }
+
+a:hover {
+            text-decoration: underline;
+        }
+
+
+h3  {
+        color: rgb(190, 86, 150);
+        text-align: center;
+        border-bottom: solid;/*cria uma borda abaixo do nome Currículo*/
+        border-radius: 90px; /*Cria um efeito arredondado na bordar abaixo do nome currículo*/
+        font-size: 46px;
+        border-width: 10px;
+        margin-top: 15px;
+        padding: 20px;
+        border-color: rgb(226, 65, 127);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+p   {
+        text-align: justify;
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        white-space: pre-line; /*Quebra de linha*/
+        margin-left: 1px;
+        color: rgb(243, 131, 200);
+    }
+
+
+h4  { 
+        color:rgb(243, 131, 200);
+        text-align:left;
+        margin-top: 15px;
+        margin-left: 18px;
+        padding: 1px;
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+h5  {
+        color: rgb(243, 131, 200);
+        text-align:left;
+        margin-top: 15px;
+        margin-left: 18px;
+        padding: 1px;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+.aa {
+        height:5px;
+        width: 10%; 
+        margin-left: 10px;
+        border:0; background:repeating-linear-gradient(45deg, transparent, transparent 10px, #f70bf7 10px, #990099 20px), linear-gradient(to bottom, #bd8f8f, #999999);
+    }
+
+.g {
+        height:5px;
+        width: 30%; 
+        margin-left: 10px;
+        border:0; background:repeating-linear-gradient(45deg, transparent, transparent 10px, #6b0999 10px, #e2a9e2 20px), linear-gradient(to bottom, #382f2f, #999999);
+    }
+
+.b {
+    height:5px;
+    width: 15%; 
+    margin-left: 10px;
+    border:0; background:repeating-linear-gradient(45deg, transparent, transparent 10px, #1f151f 10px, #330733 20px), linear-gradient(to bottom, #eeeeee, #999999);
+    }
+
+.c  {
+        height:5px;
+        width: 50%; 
+        margin-left: 10px;
+        border:0; background:repeating-linear-gradient(45deg, transparent, transparent 10px, #d6b2d6 10px, #05861b 20px), linear-gradient(to bottom, #eeeeee, #999999);
+    }
+
+.d  {
+        height:5px;
+        width: 60%; 
+        margin-left: 10px;
+        border:0; background:repeating-linear-gradient(45deg, transparent, transparent 10px, #f013f0 10px, #990099 20px), linear-gradient(to bottom, #eeeeee, #999999);
+    }
+
+.e  {
+        height:5px;
+        width: 45%; 
+        margin-left: 10px;
+        border:0; background:repeating-linear-gradient(45deg, transparent, transparent 10px, #990099 10px, #270227 20px), linear-gradient(to bottom, #df4848d5, #999999);
+    }
+
+.f  {
+        height:5px;
+        width: 5%; 
+        margin-left: 10px;
+        border:0; background:repeating-linear-gradient(45deg, transparent, transparent 10px, #993800 10px, #990099 20px), linear-gradient(to bottom, #eeeeee, #999999);
+    }
+
+.hh {
+        height:5px;
+        width: 80%; 
+        margin-left: 10px;
+        border:0; background:repeating-linear-gradient(45deg, transparent, transparent 10px, #f30404 10px, #fa0c0c 20px), linear-gradient(to bottom, #34f80d, #999999);
+    }
+
+.i  {
+        height:5px;
+        width: 75%; 
+        margin-left: 10px;
+        border:0; background:repeating-linear-gradient(45deg, transparent, transparent 10px, #080408 10px, #990099 20px), linear-gradient(to bottom, #b19b9b, #999999);
+    }
+
+.fotos  {
+            display: table;
+        }
+
+.imagem {
+            display: table-cell;
+            float: left;
+        }
+
+.texto  {
+            display: table-cell;
+            float: left;
+            width: 50%;
+        }
+
+.aaa    {
+            width: 600px;
+            height: 900px;
+            margin-right: 40px;
+            border-radius: 550px;
+            border-style: inset;
+            border-color: rgb(240, 5, 150);
+        }
